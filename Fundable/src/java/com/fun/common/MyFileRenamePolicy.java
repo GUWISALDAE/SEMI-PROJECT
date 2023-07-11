@@ -1,10 +1,10 @@
-package com.kh.common;
+package com.fun.common;
+
+import com.oreilly.servlet.multipart.FileRenamePolicy;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import com.oreilly.servlet.multipart.FileRenamePolicy;
 
 // 인터페이스를 구현해야함
 public class MyFileRenamePolicy implements FileRenamePolicy{

@@ -1,4 +1,4 @@
-package com.kh.common;
+package com.fun.common;
 
 import java.nio.charset.Charset;
 import java.security.MessageDigest;

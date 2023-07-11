@@ -1,4 +1,4 @@
-package com.kh.common;
+package com.fun.common;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

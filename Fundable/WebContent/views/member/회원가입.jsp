@@ -12,25 +12,27 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	<link rel="icon" href="./images/images2/favicon.png">
 	<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
-	<link rel="stylesheet" href="/css/login.css">
+	<link rel="stylesheet" href="../css/login.css">
 <style>
 	.logo{
     	width: 70%;
-    	height: 300px;
+    	height: 200px;
+    	
 	}
 	.btn2{
     	width: 100%;
     	height: 50px;
 	}
 	
-	
 </style>
 </head>
 <body>
-	  
+	<%@ include file="../common/헤더.jsp" %>
     <div class="member">
         <!--  로고 -->
-        <img class="logo" src="./리소스/이미지/logo2.png">
+        <div style="margin-top : 120px;">
+        <img class="logo" src="../img/FUNDABLE-LOGO.gif">
+        </div>
 
         <!-- 필드 -->
         <div class="field">
@@ -210,11 +212,8 @@
         <button type="submit" class="btn btn-primary btn2">가입하기</button> <br><br>
         <button type="submit" class="btn btn-secondary btn2">취소하기</button>
 
-        <!-- 푸터 -->
-        <div class="member-footer">
-            <span><a href="#none">UTOPIA Corp.</a></span>
-        </div>
     </div>
-
+	<%@ include file="../common/챗봇.jsp" %>
+	<%@ include file="../common/프터.jsp" %>
 </body>
 </html>

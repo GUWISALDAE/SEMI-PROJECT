@@ -1,4 +1,4 @@
-package controller;
+package com.fun.member.controller;
 
 
 import java.util.Random;

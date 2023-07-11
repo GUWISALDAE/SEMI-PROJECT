@@ -37,7 +37,7 @@
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color:white;">
         <div class="container-fluid me-4" style="margin-left: 2%;">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="<%= contextPath %>">
             <img class="nav-logo" src="<%= contextPath %>/views/img/FUNDABLE-LOGO.gif">
             <span style="font-size: 20px;">UTOPIA</span>
           </a>
@@ -50,7 +50,7 @@
                 <a class="nav-link" href="#" style="color: black;">펀딩</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: black;">고객센터</a>
+                <a class="nav-link" href="<%= contextPath %>/views/notice/공지사항.jsp" style="color: black;">고객센터</a>
               </li>
             </ul>
             <ul class="navbar-nav mb-md-0 me-4 logout" style="display:one;">
@@ -63,7 +63,7 @@
                     <a class="nav-link" href="#" style="color: black;">로그인</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" style="color: black;">회원가입</a>
+                  <a class="nav-link" href="<%= contextPath %>/views/member/회원가입.jsp" style="color: black;">회원가입</a>
                 </li>
               </ul>
               <ul class="navbar-nav mb-md0 me-4 login" style="display:none;">

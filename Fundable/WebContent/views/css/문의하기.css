@@ -14,7 +14,7 @@
     z-index: 2;
 }
 .side-bar a{
-  color:white;
+  color:black;
 }
 .side-bar a:hover{
   color: gray;
@@ -37,9 +37,9 @@
 .QA-title{
   width: 10%;
   height: 60px;
-  margin-left:20%;
+  margin-left:22%;
   font-size:40px;
-  margin-top: 7%;
+  margin-top: 4%;
   color:lightgray;
 }
 .msg-call{
@@ -54,10 +54,8 @@
   margin-left: 45%;
   margin-top: -6%;
 }
-.logimg{
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  margin-top: 15px;
-  margin-left: 55px;
+.flex-shrink-0{
+  background: rgba(255,255,255,.4); 
+  z-index: 100;
+  border-right: 1px solid rgba(0,0,0,.06);
 }

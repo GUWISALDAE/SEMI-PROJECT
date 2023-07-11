@@ -5,11 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
- 	<link rel="stylesheet" href="views/css/wadiz_main.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ 	<link rel="stylesheet" href="views/css/wadiz_main.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
  <style>
 /* slick 버튼 css */
  *{
@@ -103,7 +104,7 @@
             <div class="Recommendation_container">
                 <div class="main_wrap">
                     <div class="Recommendation_project">
-                        <div class="Recommendation_subTitle">
+                        <div class="Recommendation_subTitle ">
                             <a class="Recommendation_Title">취향 맞춤 프로젝트</a>
                             <p class="Recommendation_description>">지금 함께 만드는 성공</p>
                             <div class="Recommendation_cardListGroup">

@@ -1,5 +1,13 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-
+/* slick 버튼 css */
+ *{
+    font-family: "Pretendard";
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
 body{
     width :  calc(100vw - (100vw - 100%));
 }
@@ -127,9 +135,11 @@ body{
 }
 .Ranking_Text>a{
     bottom : 15px;
+    text-decoration: none;
 }
 .Ranking_Num{
     padding-top: 8px;
+    text-decoration: none;
 }
 .Ranking_Image{
     width:28%;

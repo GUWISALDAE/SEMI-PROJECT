@@ -71,7 +71,7 @@
         }
 
         function move(){
-            location.href='';
+            location.href='<%= contextPath %>/views/notice/문의하기.jsp';
         };
         function chatbot(){
             $("#chatbot").toggle(1500);

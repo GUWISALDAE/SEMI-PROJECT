@@ -5,12 +5,11 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-	 <!-- CSS only -->
+   <!-- CSS only -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- Latest compiled and minified CSS -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-     <!-- Latest compiled JavaScript -->
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <link rel="stylesheet" href="../css/챗봇.css">
 </head>
 <body>
@@ -27,7 +26,7 @@
         </div>
     </div>
     <div class="start-chat">
-        <button class="btn chatbtn" onclick="chatbot()" style=" border:1px solid rgba(102,186,255,0.4); background-color: rgba(102,186,255,0.4);">챗봇</button>
+        <button class="btn chatbtn" onclick="chatbot();" style=" border:1px solid rgba(102,186,255,0.4); background-color: rgba(102,186,255,0.4);">챗봇</button>
     </div>
     
     <script>
@@ -71,7 +70,7 @@
         }
 
         function move(){
-            location.href='';
+            location.href="<%= contextPath %>/views/notice/문의하기.jsp";
         };
         function chatbot(){
             $("#chatbot").toggle(1500);

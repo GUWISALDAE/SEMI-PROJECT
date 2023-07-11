@@ -1,3 +1,4 @@
+
 .list-area{
     text-align:center;
     height: 510px;
@@ -29,7 +30,7 @@
     z-index: 2;
 }
 .side-bar a{
-  color:white;
+  color:black;
 }
 .side-bar a:hover{
   color: gray;
@@ -45,11 +46,11 @@
   margin-top: 3%;
 }
 .logimg{
-  width: 100px;
+  width: 220px;
   height: 100px;
   position: absolute;
   margin-top: 15px;
-  margin-left: 55px;
+  margin-left: 20px;
 }
 .QA-title{
   width: 10%;
@@ -58,4 +59,9 @@
   font-size:40px;
   margin-top: 4%;
   color:lightgray;
+}
+.flex-shrink-0{
+  background: rgba(255,255,255,.4); 
+  z-index: 100;
+  border-right: 1px solid rgba(0,0,0,.06);
 }
